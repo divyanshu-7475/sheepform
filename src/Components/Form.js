@@ -14,7 +14,7 @@ export default function Form({closeModal}) {
         return
     }
     try {
-      const response = await fetch(`http://localhost:8000/new/review`, {
+      const response = await fetch(`https://sheepformbackend.onrender.com/new/reviews`, {
         method: "POST", 
         headers: {
           "Content-Type": "application/json",
